@@ -11,6 +11,10 @@
 		B658A4722B6CDA2300EFD7D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B658A4712B6CDA2300EFD7D4 /* ContentView.swift */; };
 		B658A4742B6CDA2500EFD7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B658A4732B6CDA2500EFD7D4 /* Assets.xcassets */; };
 		B658A4772B6CDA2500EFD7D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B658A4762B6CDA2500EFD7D4 /* Preview Assets.xcassets */; };
+		B6DD6C372B6CF03E000AB635 /* PListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD6C362B6CF03D000AB635 /* PListManager.swift */; };
+		B6DD6C392B6CF064000AB635 /* environment.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6DD6C382B6CF064000AB635 /* environment.plist */; };
+		B6DD6C3B2B6CF941000AB635 /* UnsplashAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD6C3A2B6CF941000AB635 /* UnsplashAPI.swift */; };
+		B6DD6C3D2B6CFF11000AB635 /* FeedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD6C3C2B6CFF11000AB635 /* FeedState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		B658A4712B6CDA2300EFD7D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B658A4732B6CDA2500EFD7D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B658A4762B6CDA2500EFD7D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6DD6C362B6CF03D000AB635 /* PListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PListManager.swift; sourceTree = "<group>"; };
+		B6DD6C382B6CF064000AB635 /* environment.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = environment.plist; sourceTree = "<group>"; };
+		B6DD6C3A2B6CF941000AB635 /* UnsplashAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashAPI.swift; sourceTree = "<group>"; };
+		B6DD6C3C2B6CFF11000AB635 /* FeedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,14 @@
 		B658A46E2B6CDA2300EFD7D4 /* UnsplashApp */ = {
 			isa = PBXGroup;
 			children = (
+				B6DD6C362B6CF03D000AB635 /* PListManager.swift */,
 				B658A46F2B6CDA2300EFD7D4 /* UnsplashAppApp.swift */,
 				B658A4712B6CDA2300EFD7D4 /* ContentView.swift */,
+				B6DD6C3C2B6CFF11000AB635 /* FeedState.swift */,
 				B658A4732B6CDA2500EFD7D4 /* Assets.xcassets */,
+				B6DD6C382B6CF064000AB635 /* environment.plist */,
 				B658A4752B6CDA2500EFD7D4 /* Preview Content */,
+				B6DD6C3A2B6CF941000AB635 /* UnsplashAPI.swift */,
 			);
 			path = UnsplashApp;
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				B658A4772B6CDA2500EFD7D4 /* Preview Assets.xcassets in Resources */,
 				B658A4742B6CDA2500EFD7D4 /* Assets.xcassets in Resources */,
+				B6DD6C392B6CF064000AB635 /* environment.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DD6C3D2B6CFF11000AB635 /* FeedState.swift in Sources */,
+				B6DD6C3B2B6CF941000AB635 /* UnsplashAPI.swift in Sources */,
 				B658A4722B6CDA2300EFD7D4 /* ContentView.swift in Sources */,
+				B6DD6C372B6CF03E000AB635 /* PListManager.swift in Sources */,
 				B658A4702B6CDA2300EFD7D4 /* UnsplashAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
